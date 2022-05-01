@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.wrapper{
+    background-color: #0B192F;
+    width: 380px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+
+.screen{
+    width: 40%;
+    color:#B3BEDC ;
+    font-size: 30px;
+    align-self: flex-end;
+    position: relative;
+}
+.expression{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.result{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+table{
+    border: none;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    border-spacing:15px 15px;
+}
+
+td{
+    border-radius: 5px;
+    width:70px;
+    height: 60px;
+    background-color: #142B51;
+    color: #B3BEDC;
+    text-align: center;
+    cursor: pointer;
+}
+
+.oper{
+    background-color: #1C3D70;
+}
+
+.equal{
+    background-color: #DF037D;
+}
+
